@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: black;
+    color:white;
+    display :flex;
+    justify-content: space-between;
+    padding:10px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.navbar{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:rgb(240, 207, 17)
+}
+
+#hero{
+    background-color: rgb(9, 9, 9);
+    height:250px;
+    max-height: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+     
+     
+     
+}
+
+  #hero div h2{
+    margin-left:100px ;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+#hero div p{
+    color:white;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+#hero div button{
+    border:none;
+    border-radius: 10px;
+    color:black;
+    background-color: white;
+    padding:20px;
+    margin-left: 30px;
+   
+}
+#hero div button:hover{
+    background-color: blue;
+}
+    
+
+#hero img{
+   margin-left:10px ;
+   width:100%;
+    max-width:250px;
+    height:250px;
+}
+#features{
+     display: grid;
+     grid-template-columns: repeat(5,200px);
+     gap:35px;
+     margin-left: 20px;
+     
+    
+    
+}
+.merge{
+    display:flex;
+    gap:30px;
+    flex-wrap: wrap;
+   
+}
+
+#features div{
+    width:100%;
+    max-width:200px;
+    height:250px;
+    border:1px solid black;
+    padding:10px;
+    margin-left: 10px;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 7px 7px 3px black;
+    
+     
+
+    
+    
+
+}
+ h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     margin-top: 10px;
+}
+#features div img{
+    width: 100%;
+    max-width:100px;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+#benefits{
+    width: 100%;
+    max-width:650px;
+    border:1px solid black;
+    margin-top: 10px;
+    border-radius:20px;
+    margin-left:30px;
+    box-shadow: 7px 7px 3px black;
+    
+}
+
+#benefits h2{
+    margin-left: 20px;
+}
+#benefits div{
+    width: 100%;
+    max-width:500px;
+    
+
+}
+#benefits ul{
+    
+    font-size: 20px;   
+}
+
+#pricing div{
+    border:1px solid black;
+    margin-top: 10px;
+    /* width:100%; */
+    width:450px;
+    height:300px;
+    border-radius:10px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 7px 7px 3px black;
+    
+}
+ 
+#pricing button{
+    font-size: 20px;
+    border-radius: 15px;
+    padding:10px;
+    width:50%;
+    align-items: center;
+    margin-top: 10px;
+    color:white;
+    background-color: blue;
+} 
+#reviews div {
+    margin-top: 10px;
+    font-size:18px;
+    border:1px solid black;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px black;
+    flex-wrap: wrap;
+}
+footer{
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    
+}
+#contact p{
+    line-height: 30px;
+}
