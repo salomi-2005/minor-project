@@ -1,0 +1,141 @@
+nav{
+    display: flex;
+     justify-content: space-between;
+     padding:10px;
+     
+} 
+
+.nav a{
+    color: rgb(185, 181, 181);
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color:rgb(240, 174, 51)
+}
+
+nav h3{
+    color:rgb(236, 190, 105);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.nav{
+    display: flex;
+   gap: 40px;
+    padding:20px; 
+
+}
+
+nav button{
+    border:1px solid orange;
+    background-color: rgb(41, 39, 39);
+    color:rgb(236, 190, 105);
+    padding:10px;
+    height: 40px;
+}
+
+#About{
+    color:rgb(208, 203, 203);
+    /* font-style: italic; */
+    font-size: 30px;
+
+}
+#About p{
+    font-size:20px ;
+}
+#About strong{
+    color:white;
+    font-size: 50px;
+}
+#About i{
+    color:rgb(236, 190, 105);
+}
+.button button{
+    padding:10px;
+    background-color: black; 
+     color:rgb(111, 107, 107); 
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+.button{
+    display:flex;
+    gap:20px;
+}
+#About a{
+    text-decoration: none;
+}
+
+
+#Skills{
+    color:rgb(208, 203, 203);
+    display:flex;
+    gap:30px;
+    
+   
+}   
+#Skills div{
+    border:1px solid black;
+    width:100px;
+    height: 10px;
+    padding:10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    
+   
+}
+#Projects{
+    display:flex;
+    gap:10px;
+    margin:10px;
+}
+#Projects div{
+    width:400px;
+
+    border:0px solid black;
+    border-radius: 10px;
+    padding:10px;
+    color:rgb(217, 212, 212);
+}
+
+#Projects button{
+    background-color: rgb(87, 83, 83);
+    
+    padding:10px;
+}
+#Projects a{
+    text-decoration: none;
+    color:white;
+}
+#Contact{
+    color:white;
+    align-items: center;
+}
+#Contact strong{
+    font-size: 40px;
+    color:rgb(229, 166, 49);
+}
+#Contact div{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:20px;
+    
+    text-align: center;
+}
+#Contact p{
+    color:white;
+    font-size: 20px;
+    
+}
+#Contact button{
+    background-color: rgb(87, 83, 83);
+    
+    padding:10px;
+}
+#Contact a{
+    color:white;
+    text-decoration: none;
+}
